@@ -1,0 +1,65 @@
+body {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+main {
+    margin-top: 5rem;
+    width: 600px;
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+main h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+form ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+form ul button {
+    border-radius: 5px;
+}
+form ul button:hover {
+    background-color: rgb(228, 227, 227);
+    cursor: pointer;
+}
+form ul button:active {
+    background-color: rgba(228, 227, 227, 0.556);
+}
+
+
+.switch_page_container {
+    margin-top: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.switch_page_container a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #4493f8;
+}
+.switch_page_container a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+li input {
+    width: 100%;
+    padding: 0.3rem;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+li input:focus {
+    background-color: rgb(228, 227, 227);
+}

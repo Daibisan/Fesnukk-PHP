@@ -1,0 +1,60 @@
+html {
+    height: 100vh;
+}
+
+body {
+    min-height: 100%;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+main {
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.logo {
+    font-size: 5rem;
+}
+
+
+.lorem {
+    margin-top: 3.5rem;
+    font-size: 1.8rem;
+}
+
+
+.switch_page_container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+ul {
+    width: max-content;
+    padding: 1rem;
+    padding-inline: 1.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    border: 2px solid black;
+    outline: 2px solid gray;
+    border-radius: 55px;
+}
+ul a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #4493f8;
+}
+ul a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
