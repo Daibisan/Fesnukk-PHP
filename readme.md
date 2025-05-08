@@ -14,7 +14,7 @@ Fesnukk is a simple yet functional web application designed to showcase user aut
 ---
 
 ## 🔗 PHP Connector
-We use **MySQLi** for connecting PHP to the MySQL database. It's fast, secure, and reliable! 🔒
+I use **MySQLi** for connecting PHP to the MySQL database. It's easy for beginner!
 
 ---
 
@@ -43,7 +43,7 @@ We use **MySQLi** for connecting PHP to the MySQL database. It's fast, secure, a
 ---
 
 ## 💡 Notes
-- This project is for learning purposes and demonstrates basic CRUD operations (Create ✅, Read ✅, Update ❌, Delete ❌).
+- This project is for learning purposes and demonstrates basic PHP CRUD operations (Create ✅, Read ✅, Update ❌, Delete ❌).
 - Feel free to extend and improve the application! 💪
 
 ---
