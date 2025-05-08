@@ -13,10 +13,9 @@
         $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_SPECIAL_CHARS);
         $password = filter_input(INPUT_POST, "pass", FILTER_SANITIZE_SPECIAL_CHARS);
 
-        $sql = "SELECT * FROM users WHERE user = '$username'";
-
         try {
-
+            $sql = "SELECT * FROM users WHERE user = '$username'";
+            
             $result = $conn->query($sql);
             $row = $result->fetch_assoc();
 
@@ -47,8 +46,11 @@
                 exit();            }
 
         }
+        // Mengatasi kesalahan koneksi database
         catch (mysqli_sql_exception $e) {
-            echo $e;
+            $_SESSION['message'] = "Terjadi kesalahan pada server!";
+            header("Location: " . $_SERVER['PHP_SELF']);
+            exit();
         }
 
         $conn->close();
